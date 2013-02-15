@@ -1,0 +1,3 @@
+[submodule "cookbooks-src/rails-lastmile"]
+	path = cookbooks-src/rails-lastmile
+	url = git://github.com/DanThiffault/rails-lastmile.git
