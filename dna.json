@@ -1,0 +1,7 @@
+{
+      "rails-lastmile" : {
+         "app_dir" : "/home/ubuntu/proj-name",
+         "ruby_version" : "1.9.3-p385"
+      },
+      "run_list": ["recipe[rails-lastmile]"]
+}

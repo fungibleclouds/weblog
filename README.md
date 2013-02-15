@@ -65,3 +65,16 @@
 ## Start vagrant
 
 	vagrant up
+
+# Use in the cloud
+
+## get ruby installed in the cloud
+
+	sudo su
+	curl -L https://gist.github.com/lvnilesh/4651580/raw/8593fe70e8216e092ab831ff28ab0a5bd18fe502/chef_solo_bootstrap.sh  | bash
+
+	ssh-copy-id ubuntu@chefserver.cloudapp.net
+	ssh ubuntu@chefserver.cloudapp.net 
+	rsync -r . ubuntu@chefserver.cloudapp.net://home/ubuntu/proj-name
+	
+
