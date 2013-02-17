@@ -22,5 +22,8 @@ cookbook 'rbenv',
 cookbook 'apt',
   :git => 'https://github.com/opscode-cookbooks/apt'
 cookbook 'unicorn'
-cookbook  'nginx'
-cookbook  'runit'
+cookbook 'nginx'
+cookbook 'runit'
+cookbook 'git'
+cookbook 'sudo'
+cookbook 'vim'

@@ -6,7 +6,6 @@ run_list(
   "recipe[git]",
   "recipe[build-essential]",
   "recipe[sudo]",
-  "recipe[users::sysadmins]",
   "recipe[vim]",
   "recipe[nginx]",
   "recipe[ohai]",

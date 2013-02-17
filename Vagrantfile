@@ -74,21 +74,5 @@ Vagrant::Config.run do |config|
     chef.chef_server_url = "http://chefserver.cloudapp.net:4000"
     chef.validation_key_path = "~/.chef/validation.pem"
     chef.validation_client_name = "chef-validator"
-    chef.add_recipe "apt"
-    chef.add_recipe "build-essential"
-    chef.add_recipe "rbenv"
-    chef.add_recipe "ruby_build"
-    chef.add_recipe "nginx"
-    chef.add_recipe "unicorn"
-    chef.add_recipe "runit"
-    chef.add_recipe "ohai"
-
-    chef.add_recipe "rails-lastmile"
-    chef.json = {
-      'rails-lastmile' => {
-      'app_dir' => '/home/vagrant/proj-name',
-      'ruby_version' => '1.9.3-p385'
-      }
-    }
   end
 end
